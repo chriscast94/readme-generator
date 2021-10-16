@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
+const markdown = require("./utils/generateMarkdown");
 
 
 // TODO: Create an array of questions for user input
@@ -99,7 +100,17 @@ function writeToFile({fileName, description, installation, usage, contributing, 
 }
 
 // TODO: Create a function to initialize app
-function init() { }
+function init() {
+    writeToFile()
+    .then((answers) => fs.writeFileSync("README.md", writeToFile(answers)))
+    .then (() => console.log("Congratulations!\nSuccessfully created and wrote new README.md file."))
+};
 
+// promptUser()
+// // Use writeFileSync method to use promises instead of a callback function
+//   .then((answers) => fs.writeFileSync('index.html', generateHTML(answers)))
+//   .then(() => console.log('Successfully wrote to index.html'))
+//   .catch((err) => console.error(err));
+// };
 // Function call to initialize app
 init();
