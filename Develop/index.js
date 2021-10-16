@@ -53,7 +53,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Which license would you like to use? ',
-        choices: 'MIT, GNU GPLv3, '
+        choices: 'MIT, Apache 2.0, '
 
     },
 
@@ -66,37 +66,8 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile({fileName, description, installation, usage, contributing, tests, githubUser, email}) {
-    `# ${fileName}
-
-    ## Description
-    ${description}
-
-    ## Table of Contents
-    Installation
-    Usage
-    Contributing
-    Tests
-    Questions
-    License
-   
-    ## Installation
-    ${installation}
-  
-    ## Usage
-    ${usage}
-    
-    ## Contributing
-    ${contributing}
-
-    ## Tests
-    ${tests}
-
-    ## Questions
-    My GitHub profile is: https://github.com/${githubUser}
-    If you have any questions regarding my project, you can reach my at my email, ${email}
-    
-    ## License`
+function writeToFile(fileName, data) {
+ 
 }
 
 // TODO: Create a function to initialize app
@@ -106,11 +77,4 @@ function init() {
     .then (() => console.log("Congratulations!\nSuccessfully created and wrote new README.md file."))
 };
 
-// promptUser()
-// // Use writeFileSync method to use promises instead of a callback function
-//   .then((answers) => fs.writeFileSync('index.html', generateHTML(answers)))
-//   .then(() => console.log('Successfully wrote to index.html'))
-//   .catch((err) => console.error(err));
-// };
-// Function call to initialize app
 init();
