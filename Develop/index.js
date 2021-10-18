@@ -28,19 +28,13 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions nad examples of use for your project.',
+        message: 'Provide instructions and examples of use for your project.',
     },
 
     {
         type: 'input',
         name: 'contributing',
         message: 'Who are the contributing members?',
-    },
-
-    {
-        type: 'input',
-        name: 'tests',
-        message: 'TBD?',
     },
 
     {
@@ -67,14 +61,17 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
- 
+    fs.writeFile(fileName, data, (error) => {
+        console.log(error);
+    });
 }
 
 // TODO: Create a function to initialize app
 function init() {
-    writeToFile()
-    .then((answers) => fs.writeFileSync("README.md", writeToFile(answers)))
-    .then (() => console.log("Congratulations!\nSuccessfully created and wrote new README.md file."))
+    inquirer.prompt(questions).then((data) => {
+        writeToFile("README.md", generateMarkdown(data));
+        // then (() => console.log("Congratulations!\nSuccessfully created and wrote new README.md file."))
+    })
 };
 
 init();

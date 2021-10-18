@@ -2,9 +2,9 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "MIT") {
-    return ""
+    return "https://img.shields.io/badge/license-MIT-blue"
   } else if (license === "Apache 2.0") {
-    return ""
+    return "https://img.shields.io/badge/license-apache-blue"
   } else {
     return ""
   }
@@ -25,7 +25,13 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  
+  if (license === "MIT") {
+    return `[License: MIT](${renderLicenseLink(license)})`;
+  } else if  (license === "Apache 2.0") {
+    return `[License: Apache 2.0](${renderLicenseLink(license)})`
+  } else {
+    return ""
+  }
 }
 
 // TODO: Create a function to generate markdown for README
