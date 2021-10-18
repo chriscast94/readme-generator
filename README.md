@@ -1,7 +1,6 @@
 # readme-generator
 ## Description
-I wanted the password generator to be able to create a simple password that can pass any password requirements (special characters, capital letters, etc.) while also being completely safe (randomized characters). I kept the layout simple and easy to follow along as this was meant to be a simple tool to use. 
-Javascript is an exciting and difficult operation to use. I have no idea what specific thing I learned, but I can say that I learned how Javascript works; it's like a sentence.
+I wanted to create a README.md file generator that will autopopulate the difference section of a README file with the input from a user. 
 
 ## Installation
 1. Open Github and GitBash
@@ -14,14 +13,16 @@ Javascript is an exciting and difficult operation to use. I have no idea what sp
 8. Press Enter to create clone
 
 ## Usage
-Or open index.html through VS Code, right click on the page, and click on Open in Default Browser button if open in browser extension is enabled. To view files in the GitHub Repository, click here:
-https://github.com/chriscast94/HW03-Password-Generator
+Open index.html through VS Code, right click on the page, and click on Open in Default Browser button if open in browser extension is enabled. To view files in the GitHub Repository, click here:https://github.com/chriscast94/readme-generator
+
 
 Below are the screenshots of the live page and code:
 
 
 ## Credits
 Received starting help from Professor Farish
+Developed by Christian Castillo
+Received assistants from my classmates
 
 ## License
 Copyright (c) [2021] [Christian J. Castillo]
