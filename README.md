@@ -20,9 +20,9 @@ Below are the screenshots of the live page and code:
 
 
 ## Credits
-Received starting help from Professor Farish < /br>
-Developed by Christian Castillo< /br>
-Received assistants from my classmates< /br>
+Received starting help from Professor Farish  
+Developed by Christian Castillo  
+Received assistants from my classmates  
 
 ## License
 Copyright (c) [2021] [Christian J. Castillo]
