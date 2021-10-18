@@ -38,18 +38,18 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.fileName}
 
-  ${renderLicenseBadge}
+  ![badge](https://img.shields.io/badge/license-${data.license}-blue)
 
   ## Description
   ${data.description}
 
   ## Table of Contents
-  Installation
-  Usage
-  Contributing
-  Tests
-  Questions
-  License
+  [Installation](https://github.com/${data.githubUser}/${data.fileName}/blob/main/README.md#installation)
+  [Usage](https://github.com/${data.githubUser}/${data.fileName}/blob/main/README.md#usage)
+  [Contributing](https://github.com/${data.githubUser}/${data.fileName}/blob/main/README.md#contributing)
+  [Tests](https://github.com/${data.githubUser}/${data.fileName}/blob/main/README.md#tests)
+  [Questions](https://github.com/${data.githubUser}/${data.fileName}/blob/main/README.md#questions)
+  [License](https://github.com/${data.githubUser}/${data.fileName}/blob/main/README.md#license)
  
   ## Installation
   ${data.installation}
@@ -68,7 +68,7 @@ function generateMarkdown(data) {
   If you have any questions regarding my project, you can reach my at my email, ${data.email}
   
   ## License
-  ${renderLicenseSection}
+  This project is licensed under the ${data.license} license.
   `
   
 }
