@@ -47,7 +47,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Which license would you like to use? ',
-        choices: 'MIT, Apache 2.0, '
+        choices: ['MIT', 'Apache 2.0',]
 
     },
 
@@ -69,7 +69,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
-        writeToFile("README.md", generateMarkdown(data));
+        writeToFile("README.md", markdown(data));
         // then (() => console.log("Congratulations!\nSuccessfully created and wrote new README.md file."))
     })
 };
