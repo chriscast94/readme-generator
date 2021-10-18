@@ -44,12 +44,12 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  [Installation](https://github.com/${data.githubUser}/${data.fileName}/blob/main/README.md#installation)
-  [Usage](https://github.com/${data.githubUser}/${data.fileName}/blob/main/README.md#usage)
-  [Contributing](https://github.com/${data.githubUser}/${data.fileName}/blob/main/README.md#contributing)
-  [Tests](https://github.com/${data.githubUser}/${data.fileName}/blob/main/README.md#tests)
-  [Questions](https://github.com/${data.githubUser}/${data.fileName}/blob/main/README.md#questions)
-  [License](https://github.com/${data.githubUser}/${data.fileName}/blob/main/README.md#license)
+  [Installation](https://github.com/${data.githubUser}/${data.fileName}/blob/main/Develop/README.md#installation)\
+  [Usage](https://github.com/${data.githubUser}/${data.fileName}/blob/main/Develop/README.md#usage)\
+  [Contributing](https://github.com/${data.githubUser}/${data.fileName}/blob/main/Develop/README.md#contributing)\
+  [Tests](https://github.com/${data.githubUser}/${data.fileName}/blob/main/Develop/README.md#tests)\
+  [Questions](https://github.com/${data.githubUser}/${data.fileName}/blob/main/Develop/README.md#questions)\
+  [License](https://github.com/${data.githubUser}/${data.fileName}/blob/main/Develop/README.md#license)\
  
   ## Installation
   ${data.installation}
