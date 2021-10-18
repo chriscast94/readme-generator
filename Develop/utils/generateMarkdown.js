@@ -41,7 +41,7 @@ function generateMarkdown(data) {
   ${renderLicenseBadge}
 
   ## Description
-  ${description}
+  ${data.description}
 
   ## Table of Contents
   Installation
@@ -52,20 +52,20 @@ function generateMarkdown(data) {
   License
  
   ## Installation
-  ${installation}
+  ${data.installation}
 
   ## Usage
-  ${usage}
+  ${data.usage}
   
   ## Contributing
-  ${contributing}
+  ${data.contributing}
 
   ## Tests
-  ${tests}
+  ${data.tests}
 
   ## Questions
-  My GitHub profile is: https://github.com/${githubUser}
-  If you have any questions regarding my project, you can reach my at my email, ${email}
+  My GitHub profile is: https://github.com/${data.githubUser}
+  If you have any questions regarding my project, you can reach my at my email, ${data.email}
   
   ## License
   ${renderLicenseSection}
