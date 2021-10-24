@@ -26,9 +26,9 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "MIT") {
-    return `[License: MIT](${renderLicenseLink(license)})`;
+    return `[MIT](${renderLicenseLink(license)})`;
   } else if  (license === "Apache 2.0") {
-    return `[License: Apache 2.0](${renderLicenseLink(license)})`
+    return `[Apache 2.0](${renderLicenseLink(license)})`
   } else {
     return ""
   }
@@ -38,7 +38,11 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.fileName}
 
-  ![badge](https://img.shields.io/badge/license-${data.license}-blue)
+  ![badge](${renderLicenseBadge(data.license)})
+
+  ## License
+  This project is licensed under the ${renderLicenseSection(data.license)} license.
+
 
   ## Description
   ${data.description}
@@ -67,8 +71,6 @@ function generateMarkdown(data) {
   My GitHub profile is: https://github.com/${data.githubUser}
   If you have any questions regarding my project, you can reach my at my email, ${data.email}
   
-  ## License
-  This project is licensed under the ${data.license} license.
   `
   
 }
