@@ -48,12 +48,18 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  [Installation](https://github.com/${data.githubUser}/${data.fileName}/blob/main/Develop/README.md#installation)<br/>
-  [Usage](https://github.com/${data.githubUser}/${data.fileName}/blob/main/Develop/README.md#usage)<br/>
-  [Contributing](https://github.com/${data.githubUser}/${data.fileName}/blob/main/Develop/README.md#contributing)<br/>
-  [Tests](https://github.com/${data.githubUser}/${data.fileName}/blob/main/Develop/README.md#tests)<br/>
-  [Questions](https://github.com/${data.githubUser}/${data.fileName}/blob/main/Develop/README.md#questions)<br/>
-  [License](https://github.com/${data.githubUser}/${data.fileName}/blob/main/Develop/README.md#license)<br/>
+  
+  * [Installation](#Installation)
+
+  * [Usage](#Usage)
+
+  * [Contributing](#Contributing)
+
+  * [Tests](#Tests)
+
+  * [Questions](#Questions)
+
+  * [License](#License)
  
   ## Installation
   ${data.installation}
