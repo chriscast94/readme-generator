@@ -13,16 +13,22 @@ I wanted to create a README.md file generator that will autopopulate the differe
 8. Press Enter to create clone
 
 ## Usage
-Open index.html through VS Code, right click on the page, and click on Open in Default Browser button if open in browser extension is enabled. To view files in the GitHub Repository, click here:https://github.com/chriscast94/readme-generator
+Open index.html through VS Code, right click on the page, and click on Open in Default Browser button if open in browser extension is enabled. 
 
+To view files in the GitHub Repository, click here:https://github.com/chriscast94/readme-generator
 
-Below are the screenshots of the live page and code:
+Below is the video link of the deployed application:
+https://watch.screencastify.com/v/X1ZMLX98IryKBTyGwvEz
 
+Below are screenshots of the live code:
+![image](https://user-images.githubusercontent.com/53799375/142825543-a12b59ed-ac86-4059-ad35-594819e2feef.png)
+![image](https://user-images.githubusercontent.com/53799375/142825501-8f2d7f48-c2de-4201-bc3c-b8234bbedbfe.png)
 
 ## Credits
 Received starting help from Professor Farish  
 Developed by Christian Castillo  
-Received assistants from my classmates  
+Received assistance from my classmates
+Received TOC help from my tutor
 
 ## License
 Copyright (c) [2021] [Christian J. Castillo]
