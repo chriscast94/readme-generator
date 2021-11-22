@@ -1,13 +1,13 @@
-# test
+# Test Project
 
-  ![badge](https://img.shields.io/badge/license-apache-blue)
+  ![badge](https://img.shields.io/badge/license-MIT-blue)
 
   ## License
-  This project is licensed under the [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) license.
+  This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
 
   ## Description
-  test
+  This is a test
 
   ## Table of Contents
   
@@ -24,19 +24,19 @@
   * [License](#License)
  
   ## Installation
-  test
+  Download and push
 
   ## Usage
-  test
+  Read above
   
   ## Contributing
-  test
+  Just me
 
   ## Tests
-  test
+  There isnt'
 
   ## Questions
-  My GitHub profile is: https://github.com/test
-  If you have any questions regarding my project, you can reach my at my email, test
+  My GitHub profile is: https://github.com/chriscast94
+  If you have any questions regarding my project, you can reach my at my email, test@test.com
   
   
