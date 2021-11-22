@@ -7,7 +7,7 @@
 
 
   ## Description
-  This is a test
+  This is a test project
 
   ## Table of Contents
   
@@ -24,19 +24,19 @@
   * [License](#License)
  
   ## Installation
-  Download and push
+  download and push
 
   ## Usage
-  This is just a test
+  This is a test
   
   ## Contributing
   Just me
 
   ## Tests
-  There are no tests for this test
+  This is the test
 
   ## Questions
   My GitHub profile is: https://github.com/chriscast94
-  If you have any questions regarding my project, you can reach my at my email, test@test.com
+  If you have any questions regarding my project, you can reach my at my email, chriscast94
   
   
