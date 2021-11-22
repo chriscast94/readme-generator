@@ -27,13 +27,13 @@
   Download and push
 
   ## Usage
-  Read above
+  This is just a test
   
   ## Contributing
   Just me
 
   ## Tests
-  There isnt'
+  There are no tests for this test
 
   ## Questions
   My GitHub profile is: https://github.com/chriscast94
