@@ -23,6 +23,9 @@ https://watch.screencastify.com/v/X1ZMLX98IryKBTyGwvEz
 Below are screenshots of the live code:
 ![image](https://user-images.githubusercontent.com/53799375/142825543-a12b59ed-ac86-4059-ad35-594819e2feef.png)
 ![image](https://user-images.githubusercontent.com/53799375/142825501-8f2d7f48-c2de-4201-bc3c-b8234bbedbfe.png)
+```
+console.log
+```
 
 ## Credits
 Received starting help from Professor Farish  
